@@ -189,6 +189,7 @@ Purpose:
 | MLP                | 97.41%        |
 | Vision Transformer | 96.66%        |
 | CNN + Augmentation | 98.87%        |
+<img width="577" height="468" alt="Screenshot 2026-05-30 at 10 49 01 AM" src="https://github.com/user-attachments/assets/56593f89-9ee5-4664-9e5e-32e126492240" />
 
 ### Observations
 
