@@ -4,7 +4,7 @@ This project explores both image classification performance and adversarial robu
 
 * Multi-Layer Perceptron (MLP)
 * Convolutional Neural Network (CNN)
-* Vision Transformer (ViT)
+* Transformer
 
 The project consists of two parts:
 
