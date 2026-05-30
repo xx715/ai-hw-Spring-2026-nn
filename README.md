@@ -267,6 +267,7 @@ ASR =
 ```
 
 Higher ASR indicates a more effective attack.
+<img width="1043" height="499" alt="Screenshot 2026-05-30 at 10 47 18 AM" src="https://github.com/user-attachments/assets/27b36631-0583-413d-9f15-84236928114d" />
 
 ---
 
