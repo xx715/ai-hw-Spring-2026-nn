@@ -127,9 +127,9 @@ Characteristics:
 
 ---
 
-### Vision Transformer (ViT)
+### Transformer
 
-The Vision Transformer treats images as sequences of patches.
+The Transformer treats images as sequences of patches.
 
 Configuration:
 
