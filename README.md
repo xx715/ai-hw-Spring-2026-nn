@@ -124,7 +124,6 @@ Characteristics:
 
 * Learns local spatial features
 * Parameter sharing through convolutions
-* Strong inductive bias for image data
 
 ---
 
