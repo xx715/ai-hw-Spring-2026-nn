@@ -204,7 +204,7 @@ Purpose:
 
 ## Objective
 
-The second part of the project evaluates how vulnerable each architecture is to adversarial examples.
+The second part of the project evaluates the robustness of each architecture against adversarial attacks.
 
 An adversarial example is a modified input image that appears visually similar to a human but causes the model to make an incorrect prediction.
 
