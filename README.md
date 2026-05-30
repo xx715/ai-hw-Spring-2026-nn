@@ -54,6 +54,43 @@ Pixel values are normalized from:
 ```
 
 ---
+## Training Configuration
+
+All models were trained using the same settings:
+
+| Parameter     | Value              |
+| ------------- | ------------------ |
+| Optimizer     | Adam               |
+| Learning Rate | 0.001              |
+| Batch Size    | 64                 |
+| Epochs        | 5                  |
+| Loss Function | Cross Entropy Loss |
+
+Using identical training settings helps provide a fair comparison between architectures.
+
+---
+
+## Data Augmentation Experiment
+
+An additional CNN experiment was performed using image augmentation.
+
+Augmentations:
+
+```python
+RandomRotation(10)
+RandomAffine(
+    degrees=0,
+    translate=(0.1, 0.1)
+)
+```
+
+Purpose:
+
+* Simulate handwriting variations
+* Improve generalization
+* Increase robustness to small transformations
+
+---
 
 ## Model Architectures
 
@@ -143,43 +180,7 @@ Linear Classifier
 
 ---
 
-## Training Configuration
 
-All models were trained using the same settings:
-
-| Parameter     | Value              |
-| ------------- | ------------------ |
-| Optimizer     | Adam               |
-| Learning Rate | 0.001              |
-| Batch Size    | 64                 |
-| Epochs        | 5                  |
-| Loss Function | Cross Entropy Loss |
-
-Using identical training settings helps provide a fair comparison between architectures.
-
----
-
-## Data Augmentation Experiment
-
-An additional CNN experiment was performed using image augmentation.
-
-Augmentations:
-
-```python
-RandomRotation(10)
-RandomAffine(
-    degrees=0,
-    translate=(0.1, 0.1)
-)
-```
-
-Purpose:
-
-* Simulate handwriting variations
-* Improve generalization
-* Increase robustness to small transformations
-
----
 
 ## Classification Results
 
