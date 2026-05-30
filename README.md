@@ -246,9 +246,9 @@ Extends I-FGSM by incorporating momentum.
 
 Characteristics:
 
-* Stabilizes optimization direction
-* Produces more transferable adversarial examples
-* Often achieves higher attack success rates
+* Uses information from previous steps to guide the attack
+* Generates stronger adversarial examples
+* Often achieves a higher attack success rate
 
 ---
 
@@ -308,7 +308,7 @@ Attacks evaluated:
 * Strong resistance to FGSM at ε = 0.05
 * Vulnerability increases substantially under iterative attacks
 
-### Vision Transformer
+### Transformer
 
 * Robustness generally falls between MLP and CNN
 * Better than MLP
