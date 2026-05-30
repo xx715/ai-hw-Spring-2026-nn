@@ -194,9 +194,9 @@ Purpose:
 ### Observations
 
 * CNN achieved the highest classification accuracy.
-* MLP performed surprisingly well despite its simplicity.
-* Vision Transformer remained competitive but slightly underperformed CNN.
-* Data augmentation produced a small decrease in clean test accuracy on MNIST.
+* MLP achieved strong performance despite using a much simpler architecture.
+* Transformer remained competitive, but slightly underperformed the CNN in this experiment as transformers generally benefit from larger datasets and longer training.
+* Data augmentation resulted in a small decrease in test accuracy. Since the MNIST test set is already clean and well-aligned, augmentation introduces variability that is not reflected in the test data.
 
 ---
 
