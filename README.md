@@ -68,27 +68,7 @@ All models were trained using the same settings:
 
 Using identical training settings helps provide a fair comparison between architectures.
 
----
 
-## Data Augmentation Experiment
-
-An additional CNN experiment was performed using image augmentation.
-
-Augmentations:
-
-```python
-RandomRotation(10)
-RandomAffine(
-    degrees=0,
-    translate=(0.1, 0.1)
-)
-```
-
-Purpose:
-
-* Simulate handwriting variations
-* Improve generalization
-* Increase robustness to small transformations
 
 ---
 
@@ -177,7 +157,27 @@ Mean Pooling
     ↓
 Linear Classifier
 ```
+---
 
+## Data Augmentation Experiment
+
+An additional CNN experiment was performed using image augmentation.
+
+Augmentations:
+
+```python
+RandomRotation(10)
+RandomAffine(
+    degrees=0,
+    translate=(0.1, 0.1)
+)
+```
+
+Purpose:
+
+* Simulate handwriting variations
+* Improve generalization
+* Increase robustness to small transformations
 ---
 
 
